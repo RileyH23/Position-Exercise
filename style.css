@@ -90,30 +90,39 @@ body {
 }
 
 #soul{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
+    z-index: 3;
 }
 
 #reality{
-    position: fixed;
+    position: absolute;
     bottom: 150px;
     right: 0;
+    z-index: 6;
 }
 
 #mind{
-    position: absolute;
+    position: fixed;
     right: 0;
+    z-index: 1;
 }
 
 #time{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
+    z-index: 4;
 }
 
 h1{
     position:sticky;
     top: 0;
     z-index: 2;
+}
+
+h2{
+    position: sticky;
+    top: 65px;
 }
